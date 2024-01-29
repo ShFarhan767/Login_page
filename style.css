@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.DetailsBox {
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 17px 35px #00000022;
+}
+
+.fh5co-cta {
+    height: 600px;
+    background-image: url(./image/DetailsBackground.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -210px;
+}
+
+.fh5co-cta .overlay {
+    background: rgb(37, 109, 243);
+    opacity: 0.9;
+    height: 600px;
+}
+
+.Details {
+    width: 40%;
+    height: 550px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.Logo {
+    position: absolute;
+    margin-left: 20px;
+    z-index: 999;
+}
+
+.Logo img {
+    width: 180px;
+    height: auto;
+}
+
+.Details h1 {
+    margin-top: 170px;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.Details h2 {
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.Details p {
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.List {
+    margin-left: -30px;
+    margin-top: 140px;
+}
+
+.Details ul {
+    margin-left: 5px;
+}
+
+.Details ul li {
+    margin-left: 25px;
+    float: left;
+    color: #fff;
+    font-size: 10px;
+}
+
+.Details ul li a {
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+ul li:first-child {
+    list-style-type: none;
+}
+
+.LoginBox {
+    height: 600px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0 17px 35px #00000022;
+    background-color: #cac4c4;
+}
+
+.LoginBox h2 {
+    margin-top: 60px;
+    color: #464242;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.LoginOption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.Email_Input {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #f3f3f3;
+    padding: 15px;
+}
+
+::placeholder {
+    color: #696969;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.password-container {
+    position: relative;
+    margin-top: 40px;
+}
+
+.Password_Input {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #f3f3f3;
+    padding: 15px;
+}
+
+.fa-eye {
+    position: relative;
+    right: 35px;
+    top: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Login_Button {
+    width: 180px;
+    height: 45px;
+    background: #3b73f8;
+    color: #fbfcfe;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.Login_Icons {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icons {
+    width: auto;
+    float: left;
+}
+
+.Google {
+    width: 40px;
+    height: 40px;
+    margin-left: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    border-radius: 8px;
+
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+}
+
+.fa-facebook {
+    color: #0165E1;
+    background-color: #fff;
+    font-size: 24px;
+}
+
+.fa-apple {
+    font-size: 28px;
+    color: #000;
+}
+
+.LoginOption p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.LoginOption a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .DetailsBox {
+        border-radius: 0;
+    }
+
+    .Details {
+        width: 80%;
+        left: 10px;
+    }
+
+    .Details h1 {
+        font-size: 52px;
+        margin-top: 130px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .Details h2 {
+        font-size: 40px;
+    }
+
+    .Details p {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .List {
+        margin-top: 160px;
+    }
+    .LoginBox{
+        border-radius: 0;
+    }
+}
